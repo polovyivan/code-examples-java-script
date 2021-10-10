@@ -1,5 +1,7 @@
 "strict mode";
 
+// Function itself it is an object to
+
 console.log(functionDeclaration("Before declaration"));
 //Function declaration
 function functionDeclaration(input) {
@@ -8,9 +10,9 @@ function functionDeclaration(input) {
 
 console.log(functionDeclaration("After declaration"));
 
-// Function expretion
+// Function expression
 const functionExpression = function (input) {
-  return `Function expretion returns input "${input}"`;
+  return `Function expression returns input "${input}"`;
 };
 
 console.log(functionExpression("Only! after expression"));

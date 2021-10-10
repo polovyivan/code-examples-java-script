@@ -38,9 +38,9 @@ console.log(Date.now());
 const futureOperations = new Date(2037, 10, 19, 15, 23);
 console.log(+futureOperations);
 
-const calsDaysPassed = (date1, date2) =>
+const calcDaysPassed = (date1, date2) =>
   Math.abs(date1 - date2) / (1000 * 60 * 60 * 24);
-console.log(calsDaysPassed(new Date(2037, 10, 19), new Date(2037, 10, 18)));
+console.log(calcDaysPassed(new Date(2037, 10, 19), new Date(2037, 10, 18)));
 
 // Internalizations
 const options = {

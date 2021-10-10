@@ -40,11 +40,11 @@ console.log(arr.slice(-1)); // last element of an array
 console.log(arr.slice()); // Shellow copy
 console.log([...arr]); // Shellow copy
 
-// SPLICE - mutaite original array
+// SPLICE - mutaites original array
 console.log(arr.splice(-2)); // remove last element of an array
 console.log(arr);
 
-// REVERSE - mutaite original array
+// REVERSE - mutaites original array
 arr = ["a", "b", "c", "d", "e"];
 const arr2 = ["j", "i", "h", "g", "f"];
 console.log(arr2.reverse());
@@ -57,7 +57,7 @@ console.log([...arr, ...arr2]);
 // JOIN
 console.log(letters.join(" - "));
 
-// LOOP forEach ( No breack and continue statemants!!!)
+// LOOP forEach ( No break and continue statements!!!)
 const movements = [200, 450, -400, 3000, -650, 130, 70, 1300];
 
 //for (const movement of movements) {
@@ -150,8 +150,7 @@ const totalDepositsUSD = movements
   // })
   .reduce((acc, mov) => acc + mov, 0);
 
-  
-// FIND first element in anarray
+// FIND first element in an array
 const firstWithdrawal = movements.find((mov) => mov < 0);
 console.log(firstWithdrawal);
 
@@ -258,4 +257,4 @@ const convertTitleCase = function (title) {
 };
 console.log(convertTitleCase("this is a nice title"));
 console.log(convertTitleCase("this is a LONG title but not too long"));
-console.log(convertTitleCase("and hereis another title with an EXAMPLE"));
+console.log(convertTitleCase("and here is another title with an EXAMPLE"));

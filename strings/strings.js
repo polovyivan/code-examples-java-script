@@ -11,13 +11,13 @@ console.log("B737"[1]);
 console.log("B737".length);
 
 // Methods
-// get first occurance position
+// get first occurrence position
 console.log(airline.indexOf("r"));
 
-// get last occurance position
+// get last occurrence position
 console.log(airline.lastIndexOf("r"));
 
-//case sencetive
+//case sensitive
 console.log(airline.indexOf("Portugal"));
 
 // Get substring
@@ -42,12 +42,12 @@ const priceGB = "288,97";
 const priceUS = priceGB.replace(",", ".");
 console.log(priceUS);
 
-const announsment =
+const announcement =
   "All passengers come to boarding door 23. Boarding door 23!";
 
-console.log(announsment.replace("door", "gate"));
-console.log(announsment.replaceAll("door", "gate"));
-console.log(announsment.replaceAll(/door/g, "gate"));
+console.log(announcement.replace("door", "gate"));
+console.log(announcement.replaceAll("door", "gate"));
+console.log(announcement.replaceAll(/door/g, "gate"));
 
 // Booleans
 const plane2 = "A320neo";
@@ -69,5 +69,5 @@ console.log("message".padStart(25, "+"));
 console.log("message".padEnd(25, "+"));
 
 // Repeat
-const message2 = "Bad waether ... All Departues Delayed...\n";
+const message2 = "Bad wether ... All Departures Delayed...\n";
 console.log(message2.repeat(5));

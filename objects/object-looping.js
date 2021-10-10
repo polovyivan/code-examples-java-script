@@ -81,10 +81,10 @@ for (const [i, player] of game.scored.entries()) {
   console.log(`Goal ${i + 1}: ${player}`);
 }
 
-// Averege odds
+// Average odds
 const odds = Object.values(game.odds);
-let averege = 0;
+let average = 0;
 
-for (const odd of odds) averege += odd;
-averege /= odds.length;
-console.log(averege);
+for (const odd of odds) average += odd;
+average /= odds.length;
+console.log(average);

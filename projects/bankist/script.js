@@ -181,7 +181,7 @@ const startLogOutTimer = function () {
     // In each call, print the remaining time to UI
     labelTimer.textContent = `${min}:${sec}`;
 
-    // Decrese 1s
+    // Decrease 1s
     time--;
     // When 0 seconds, stop timer and log out user
     if (time === 0) {
